@@ -37,9 +37,9 @@ public class HareAndHounds {
 		System.out.println(" How To Play: \n  1. The hare moves first. Input the number of the square\n     you wish to move to (square numbers shown below)\n"
 				+ "\t\t    0───1───2\r\n"
 				+ "\t\t  / | \\ | / | \\   \r\n"
-				+ "\t\t3───4───5───6───7\r\n"
+				+ "\t\t 3──4───5───6──7\r\n"
 				+ "\t\t  \\ | / | \\ | / \r\n"
-				+ "\t\t    8───9───10\r\n"
+				+ "\t\t    8———9───10\r\n"
 				+ "  2. The hounds move next. Select which hound you want to\n     move and then input the square you wish to move it to\n  "
 				+ "3. Players take turn making moves until either the hare or hounds win\n");
 		System.out.println("(Press enter to continue...)");

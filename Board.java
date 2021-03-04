@@ -11,8 +11,8 @@ public class Board {
 	
 	public String toString() {
 		return "    " + squares[0] + "───" + squares[1] + "───" + squares[2]
-				+ "\n  / | \\ | / | \\   \n"
-				+ squares[3] + "───" + squares[4] + "───" + squares[5] + "───" + squares[6] + "───" + squares[7] + "\n"
+				+ "\n  / | \\ | / | \\   \n "
+				+ squares[3] + "──" + squares[4] + "───" + squares[5] + "───" + squares[6] + "──" + squares[7] + "\n"
 				+ "  \\ | / | \\ | / \r\n"
 				+ "    " + squares[8] + "───" + squares[9] + "───" + squares[10];
 
