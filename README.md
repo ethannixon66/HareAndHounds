@@ -35,5 +35,7 @@
   3. Players take turn making moves until either the hare or hounds win
 
 How To Launch Game:
+ 
  Windows: ```java -jar \Path\To\HareAndHounds.jar```
+ Linux / macOS: ```java -jar /Path/To/HareAndHounds.jar```
 
