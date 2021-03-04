@@ -13,6 +13,7 @@
            \/_/\/_/ \/_____/ \/_____/ \/_/ \/_/ \/____/  \/_____/
  ```
 *A command line implementation of the board game 'Hare and Hounds'*
+ 
  Rules:
   1. The hare (h) can move in any direction
   2. The hounds (H) can move in any non-backwards direction
