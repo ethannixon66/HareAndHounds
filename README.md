@@ -16,13 +16,13 @@
 
 *A command line implementation of the board game 'Hare and Hounds'*
  
- Rules:
+ ## Rules:
   1. The hare (h) can move in any direction
   2. The hounds (H) can move in any non-backwards direction
   3. The hare wins when it reaches the left-most square
   4. The hounds win if the hare has no legal moves left
 
- How To Play:
+## How To Play:
   1. The hare moves first. Input the number of the square
      you wish to move to (square numbers shown below)
 ```
@@ -37,7 +37,7 @@
      move and then input the square you wish to move it to
   3. Players take turn making moves until either the hare or hounds win
 
-How To Launch Game:
+## How To Launch Game:
  
  Windows: ```java -jar \Path\To\HareAndHounds.jar```
  Linux / macOS: ```java -jar /Path/To/HareAndHounds.jar```
