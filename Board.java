@@ -15,7 +15,6 @@ public class Board {
 				+ squares[3] + "──" + squares[4] + "───" + squares[5] + "───" + squares[6] + "──" + squares[7] + "\n"
 				+ "  \\ | / | \\ | / \r\n"
 				+ "    " + squares[8] + "───" + squares[9] + "───" + squares[10];
-
 	}
 	public void addPiece(Piece piece) {
 		piecesOnBoard.add(piece);
@@ -38,7 +37,6 @@ public class Board {
 		}
 		return occupiedSquares;
 	}
-	
 	
 	public boolean didHareWin() {
 		if (squares[3] == "h") {

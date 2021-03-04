@@ -45,7 +45,6 @@ public class HareAndHounds {
 		System.out.println("(Press enter to continue...)");
 		Scanner pressEnter = new Scanner(System.in);
 		pressEnter.nextLine();
-
 	}
  
 	public static int validateMoveAttempt(Piece piece) {
@@ -83,7 +82,6 @@ public class HareAndHounds {
 			isValidHound = false;
 		} while (!Arrays.asList(1,2,3).contains(houndNumber));
 		return houndNumber;
-		
 	}
 	
 	public static void hareTurn(Piece hare, Board board) {
@@ -92,7 +90,6 @@ public class HareAndHounds {
 		
 		hare.movePiece(hareMove);
 		System.out.println(board);
-		
 	}
 	public static void houndTurn(Piece hound1, Piece hound2, Piece hound3, Board board) {
 		System.out.print("Which hound will you move? (1-3)\n1. Hound on square " + hound1.getLocation()
@@ -143,16 +140,5 @@ public class HareAndHounds {
 				return;
 		}
 		houndTurn(hound1, hound2, hound3, board);
-
 	}
 }
-
-	
-	
-	
-	
-	
-	
-	
-	
-

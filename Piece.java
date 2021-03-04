@@ -45,8 +45,6 @@ public class Piece {
 			System.out.println("The hounds won!");
 			System.exit(0);
 		}
-		
-		
 	}
 	public ArrayList<Integer> getLegalMoves() { 
 		if (type == "h") {	
