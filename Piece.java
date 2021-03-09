@@ -47,97 +47,76 @@ public class Piece {
 		}
 	}
 	public ArrayList<Integer> getLegalMoves() { 
+		legalMoves.clear();
 		if (type == "h") {	
 			switch (location) {
 				case 0:
-					legalMoves.clear();
 					legalMoves.addAll(Arrays.asList(1,3,4,5));
 					break;
 				case 1: 
-					legalMoves.clear();
 					legalMoves.addAll(Arrays.asList(0,2,5));
 					break;
 				case 2:
-					legalMoves.clear();
 					legalMoves.addAll(Arrays.asList(1,5,6,7));
 					break;
 				case 3:
-					legalMoves.clear();
 					legalMoves.addAll(Arrays.asList(0,4,8));
 					break;
 				case 4:
-					legalMoves.clear();
 					legalMoves.addAll(Arrays.asList(0,3,5,8));
 					break;
 				case 5:
-					legalMoves.clear();
 					legalMoves.addAll(Arrays.asList(0,1,2,4,6,8,9,10));
 					break;
 				case 6:
-					legalMoves.clear();
 					legalMoves.addAll(Arrays.asList(2,5,7,10));
 					break;
 				case 7: 
-					legalMoves.clear();
 					legalMoves.addAll(Arrays.asList(2,6,10));
 					break;
 				case 8:
-					legalMoves.clear();
 					legalMoves.addAll(Arrays.asList(3,4,5,9));
 					break;
 				case 9:
-					legalMoves.clear();
 					legalMoves.addAll(Arrays.asList(5,8,10));
 					break;
 				case 10:
-					legalMoves.clear();
 					legalMoves.addAll(Arrays.asList(5,6,7,9));
 					break;
 			} 
 		} else {
 			switch (location) {
 			case 0:
-				legalMoves.clear();
 				legalMoves.addAll(Arrays.asList(1,4,5));
 				break;
 			case 1: 
-				legalMoves.clear();
 				legalMoves.addAll(Arrays.asList(2,5));
 				break;
 			case 2:
-				legalMoves.clear();
 				legalMoves.addAll(Arrays.asList(6,7));
 				break;
 			case 3:
-				legalMoves.clear();
 				legalMoves.addAll(Arrays.asList(0,4,8));
 				break;
 			case 4:
-				legalMoves.clear();
 				legalMoves.addAll(Arrays.asList(0,5,8));
 				break;
 			case 5:
-				legalMoves.clear();
 				legalMoves.addAll(Arrays.asList(1,2,6,9,10));
 				break;
 			case 6:
-				legalMoves.clear();
 				legalMoves.addAll(Arrays.asList(2,7,10));
 				break;
 			case 7: 
-				legalMoves.clear();
 				legalMoves.addAll(Arrays.asList());
 				break;
 			case 8:
-				legalMoves.clear();
 				legalMoves.addAll(Arrays.asList(4,5,9));
 				break;
 			case 9:
-				legalMoves.clear();
 				legalMoves.addAll(Arrays.asList(5,10));
 				break;
 			case 10:
-				legalMoves.clear();
 				legalMoves.addAll(Arrays.asList(6,7));
 				break;
 			} 
