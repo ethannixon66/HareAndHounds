@@ -48,7 +48,7 @@ public class Piece {
 	}
 	public ArrayList<Integer> getLegalMoves() { 
 		legalMoves.clear();
-		if (type == "h") {	
+		if (type.equals("h")) {	
 			switch (location) {
 				case 0:
 					legalMoves.addAll(Arrays.asList(1,3,4,5));
